@@ -1,13 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import HomeScreen from './Screens/HomeScreen';
 
-export default class App extends React.Component{
+export default class DataScreen extends React.Component{
 
   render(){
     return (
-      <HomeScreen/>
+      <View style={styles.container}>
+        <Text>Data</Text>
+        <StatusBar style="auto" />
+      </View>
     );
   }
 }
